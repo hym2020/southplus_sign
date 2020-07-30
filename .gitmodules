@@ -1,0 +1,3 @@
+[submodule "phpwindlogin"]
+	path = phpwindlogin
+	url = https://github.com/poynt2005/phpwindlogin.git
