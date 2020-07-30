@@ -27,6 +27,8 @@ jobs:
                 LINECHANNELTOKEN: ${{ secrets.LINECHANNELTOKEN }}
                 COOKIE: ${{ secrets.COOKIE }}
               run: |
+                echo "Install Dependencies"
+                npm i
                 echo "Build Script"
                 npm run build
                 echo "Run Signup"
